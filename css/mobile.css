@@ -1,0 +1,522 @@
+@media screen and (max-width: 767px){
+    .p_logo, .quote_h1, .p_logo_f{
+        font-family: "Roboto Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+    
+    .wrapper{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background: #AD9068;
+    }
+    
+    .nav{
+        width: 100%;
+        height: 64px;
+        background: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .logo{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo_img{
+        height: 90%;
+        border-radius: 50%;
+    }
+    
+    .p_logo{
+        font-size: 100%;
+        font-weight: 500;
+    }
+    
+    
+    .logo-logo{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navigation{
+        display: none;
+    }
+    
+    .main{
+        width: 100%; 
+        height: 1900px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .div_quote{
+        width: 100%;
+        height: 19%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+        padding-top: 5%;
+        background-image: url(../img/bg.png);
+        background-size:cover;
+        
+    }
+    
+    .quote_text{
+        width: 90%;
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .quote_h1{
+        width: 100%;
+        height: 65%;
+        font-size: 170%;
+        font-weight: 600;
+        text-align: left;
+        color: white;
+        line-height: 150%;
+    }
+    
+    .quote_name{
+        width: 100%;
+        height: 10%;
+        font-size: 150%;
+        color: white;
+        text-align: right;
+        font-weight: 400;
+        font-style: italic;
+    }
+    
+    .information{
+        width: 90%;
+        height: 27%;
+        background: white;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .information_img{
+        width: 73%;
+    }
+    
+    .information_text{
+        width: 90%;
+        height: 43%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .information_p{
+        text-align: center;
+    }
+    
+    .img_3, .img_2, .img_1{
+        display: none;
+    }
+
+    .img_4{
+        width: 70%;
+    }
+    
+    .information_h4, .mary_h4{
+        font-size: 140%;
+        font-weight: 500;
+    }
+    
+    .information_p, .mary_p, .extension_p{
+        font-size: 75%;
+        line-height: 135%;
+    }
+
+    
+    
+    .montessori{
+        width: 90%;
+        height: 35%;
+        background: white;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mary, .principles{
+        width: 100%;
+        height: 61%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .mary_1{
+        height: 44%;
+        width: 49%;
+        margin-bottom: 3%;
+    }
+    
+    .mary_text, .principles_text{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .mary_p, .extension_p{
+        text-align: center;
+    }
+    
+    .div_principles{
+        width: 100%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .h1_principles, .educators_h1, .reviews_h1{
+        font-weight: 600;
+        font-size: 120%;
+    }
+    
+    .principles_divs{
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-evenly;
+        margin-top: 2%;
+    }
+    
+    .principles_div{
+        width: 43%;
+        height: 45%;
+        border-radius: 40px;
+        background: #576578;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .principles_numb{
+        width: 25%;
+        font-size: 150%;
+        font-weight: 900;
+        color: #8DB1BD;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .principles_p{
+        width: 58%;
+        height: 30%;
+        font-size: 59%;
+        color: white;
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        line-height: 110%;
+    }
+    
+    
+    .educators{
+        width: 90%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        display: none;
+    }
+    
+    .educators_h1{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .h1_educators, .reviews_h1{
+        font-size: 200%;
+        color: white;
+    }
+    
+    .cards{
+        width: 100%;
+        height: 88%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    
+    .div_card{
+        width: 30%;
+        height: 48%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background: white;
+        border-radius: 40px;
+    }
+    
+    .card_img{
+        height: 20%;
+    }
+    
+    .card_name{
+        width: 100%;
+        height: 10%;
+        font-size: 150%;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .card_p{
+        width: 100%;
+        height: 40%;
+        font-size: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .reviews{
+        width: 90%;
+        height: 15%;
+        background: #576578;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .reviews_text_button{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .reviews_h1{
+        width: 54%;
+        height: 87%;
+        font-size: 130%;
+    }
+    
+    button{
+        width: 20%;
+        height: 90%;
+        background: #8DB1BD;
+        color: white;
+        font-weight: 700;
+        font-size: 150%;
+        border: 1px solid #8DB1BD;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .reviews_div{
+        width: 95%;
+        height: 75%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    
+    .review_rew1{
+        width: 50%;
+        height: 45%;
+    }
+    
+    .rew{
+        border-radius: 40px;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    
+    .p_reviews{
+        width: 85%;
+        height: 75%;
+        line-height: 1.1;
+    }
+    
+    .star{
+        width: 85%;
+        height: 18%;
+        display: flex;
+        justify-content: left;
+    }
+    
+    .stars{
+        height: 70%;
+        margin-left: 8%;
+        margin-top: 2%;
+    }
+    
+    .review_rew2{
+        width: 45%;
+        height: 37%;
+        border-radius: 20px;
+        font-size: 60%;
+    }
+    
+    .review_rew3{
+        width: 90%;
+        height: 47%;
+        margin-top: 2%;
+    }
+    
+    
+    
+    .but{
+        color: white;
+        font-weight: 600;
+        font-size: 60%;
+        text-decoration: none;
+    }
+    
+    .footer{
+        width: 100%;
+        height: 80px;
+        background: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 2%;
+    }
+    
+    .logo_footer{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .contacts{
+        width: 48%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .logo_instagram{
+        width: 6%;
+    }
+    
+    .logo_form{
+        width: 6%;
+    }
+    
+    .icon_location{
+        width: 6%;
+        height: 30%;
+    }
+    
+    .logo_f{
+        height: 50%;
+    }
+    
+    .p_logo_f{
+        width: 80%;
+        font-size: 80%;
+        font-weight: 500;
+    }
+    
+    .instagram, .forms{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .location{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .link_a{
+        text-decoration: none;
+        color: black;
+        font-size: 50%;
+        width: 90%;
+    }
+    
+    .instagram{
+        width: 100%;
+    }
+    
+    .loc{
+        height: 100%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .rew3{
+        font-size: 60%;
+    }
+
+    .rew4{
+        display: none;
+    }
+
+    .rew1{
+        font-size: 60%;
+    }
+
+    .mary2{
+        display: none;
+    }
+
+    .principles{
+        height: 23%;
+    }
+
+    .mary_text{
+        width: 90%;
+    }
+}
